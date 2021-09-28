@@ -1,0 +1,136 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica';
+
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Fantasy';
+    color: #2f343b;
+}
+
+.menu{
+    float: middle;
+
+}
+
+nav{
+    width: 120%;
+    margin: auto;
+    display: grid;
+    line-height: 100px;
+    position: page;
+    position: -ms-page;
+    top: 0;
+    background: #708799;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:rgb(44, 37, 37);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+
+}
+.kolom{
+   /* text-align:center; */
+   display:inline;
+   margin:auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.kolom .deskripsi{
+  /*  text-align:center; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f343b;
+
+}
+h2{
+   /* text-align:center; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2f343b;
+    width: 100%;
+    line-height: 50px;
+}
+a.button-b{
+   
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+a.button-b:hover{
+    background: #00218b;
+}
+
+a.button-a{
+ /*   text-align:right; */
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+
+
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+span{
+    opacity:0;
+    transition: all 0.4s ease;
+    transform:translateY(50px);
+}
+
+span.fade{
+    opacity:1;
+    transform:translateY(0px);
+}
